@@ -1,0 +1,4 @@
+#!/bin/bash
+# My first script
+rm -r /home/adnan/workspace/Inhouse_code/output/*  
+rm -r /home/adnan/workspace/Inhouse_code/dump/* 

@@ -1,0 +1,97 @@
+NUMERICAL PARAMETERS:
+Begin cycle : 0
+ns          : 5000
+Total_time  : 5.00000000000000E-05
+dt          : 1.00000000000000E-07
+
+nx      : 100
+ny      : 100
+nz      : 100
+dx [m]  :  2.00000000000000E-06
+dy [m]  :  2.00000000000000E-06
+dz [m]  :  2.00000000000000E-06
+
+eps_new :  1.00000000000000E-12
+itm_icg : 1000
+eps_icg :  1.00000000000000E-14
+
+
+PHYSICAL PROPERTIES:
+g_x :  0.00000000000000E+00
+g_y :  0.00000000000000E+00
+g_z :  0.00000000000000E+00
+
+nph : 1
+rho[0]  :  9.58400000000000E+02
+mu[0]   :  2.80000000000000E-04
+
+rho[1]  :  5.97000000000000E-01
+mu[1]   :  1.26000000000000E-05
+surf[1] :  5.90000000000000E-02
+
+CONTACT ANGLE:
+Use Contact angle : FALSE
+
+
+REMESHING PARAMETERS:
+fak_min :  2.00000000000000E-01
+fak_max :  5.00000000000000E-01
+
+DATFILE_Version : 0 
+INITIAL POSITION OF THE BUBBLE(S):
+neli : 1
+xcc_eli[1] :  1.00000000000000E-04
+ycc_eli[1] :  1.00000000000000E-04
+zcc_eli[1] :  1.00000000000000E-04
+aaa_eli[1] :  5.00000000000000E-05
+bbb_eli[1] :  5.00000000000000E-05
+ccc_eli[1] :  5.00000000000000E-05
+ph_eli[1]  : 1
+
+
+IBM_PARTICLE : 0
+
+POROUS_PARTICLE : 0
+
+CALCULATION OPTIONS
+WindowShifting       : FALSE
+bub_track            : 0
+OriginShift.x        :  0.00000000000000E+00
+OriginShift.y        :  0.00000000000000E+00
+OriginShift.z        :  0.00000000000000E+00
+LES turbulence       : FALSE
+Adaptive timestepping : FALSE
+Minimum err (inc DT)  :  1.00000000000000E-07
+Maximum err (dec DT)  :  1.00000000000000E-06
+DISCRETE ELEMENTS    : FALSE
+
+
+BOUNDARIES
+
+Periodic x-boundary  : FALSE
+Periodic y-boundary  : FALSE
+Periodic z-boundary  : FALSE
+Free-slip boundaries : FALSE
+
+Pseudo-periodic pressure gradient (x-dir) :  0.00000000000000E+00
+Pseudo-periodic pressure gradient (y-dir) :  0.00000000000000E+00
+Pseudo-periodic pressure gradient (z-dir) :  0.00000000000000E+00
+
+LinearShearField : FALSE
+InflowFromTop    : FALSE
+ShearRate        :  0.00000000000000E+00
+
+RotationalVelocityField : FALSE
+omega                   :  0.00000000000000E+00
+Probe Liquid            : FALSE
+
+MASS TRANSFER
+Use Mass transport : FALSE
+GAS INLETS : FALSE
+
+OUTPUT PARAMETERS:
+fd_vtk : 1
+fd     : 1000
+nr_extra_dumps : 0
+
+

@@ -1,0 +1,60 @@
+NUMERICAL PARAMETERS FOR ENERGY EQUATION:
+Begin cycle : 0
+Start_time: 0.00000000000000E-00
+End_time  : 1.40000000000000E-04
+
+eps_icg_energy :  1.00000000000000E-10
+
+------------------------------------
+FLUID PROPERTIES:
+K [0]  :  2.00000000000000E+02
+Cp[0]  :  5.00000000000000E+02
+K [1]  :  2.00000000000000E+01
+Cp[1]  :  5.00000000000000E+02
+------------------------------------
+BOUNDARIES
+
+Periodic x-boundary  : FALSE
+Periodic y-boundary  : FALSE
+Periodic z-boundary  : FALSE
+
+GAS INLETS(in X-dir.): FALSE
+Inlet Temperature[K]   :  3.00000000000000E+02
+
+(A)i=0    ----> WALL BOUNDARY CONDITION TYPE 1 or 2 or 3 : 2
+[Case 1] Wall Temperature : NA
+[Case 2] Wall Heat Flux   : 0.000000000000E+00
+[Case 3] Convective Boundary Condition
+ Free Steam Temperature   : 0.000000000000E+00
+ Heat Transfer Coefficient: 0.000000000000E+00
+(B)i=NX+1----> WALL BOUNDARY CONDITION TYPE 1 or 2 or 3 : 2
+[Case 1] Wall Temperature : NA
+[Case 2] Wall Heat Flux   : 0.000000000000E+00
+[Case 3] Convective Boundary Condition
+ Free Steam Temperature   : 0.000000000000E+00
+ Heat Transfer Coefficient: 0.000000000000E+00
+(C)j=0   ----> WALL BOUNDARY CONDITION TYPE 1 or 2 or 3 : 2
+[Case 1] Wall Temperature : NA
+[Case 2] Wall Heat Flux   : 0.000000000000E+00
+[Case 3] Convective Boundary Condition
+ Free Steam Temperature   : 0.000000000000E+00
+ Heat Transfer Coefficient: 0.000000000000E+00
+(D)j=NY+1----> WALL BOUNDARY CONDITION TYPE 1 or 2 or 3 : 2
+[Case 1] Wall Temperature : NA
+[Case 2] Wall Heat Flux   : 0.000000000000E+00
+[Case 3] Convective Boundary Condition
+ Free Steam Temperature   : 0.000000000000E+00
+ Heat Transfer Coefficient: 0.000000000000E+00
+(E)k=0   ----> WALL BOUNDARY CONDITION TYPE 1 or 2 or 3 : 2
+[Case 1] Wall Temperature : NA
+[Case 2] Wall Heat Flux   : 0.000000000000E+00
+[Case 3] Convective Boundary Condition
+ Free Steam Temperature   : 0.000000000000E+00
+ Heat Transfer Coefficient: 0.000000000000E+00
+(F)k=NZ+1----> WALL BOUNDARY CONDITION TYPE 1 or 2 or 3 : 2
+[Case 1] Wall Temperature : NA
+[Case 2] Wall Heat Flux   : 0.000000000000E+00
+[Case 3] Convective Boundary Condition
+ Free Steam Temperature   : 0.000000000000E+00
+ Heat Transfer Coefficient: 0.000000000000E+00
+------------------------------------ 
