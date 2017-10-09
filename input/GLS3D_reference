@@ -1,0 +1,97 @@
+NUMERICAL PARAMETERS: 
+Begin cycle : 0                                 ! Not of interest
+ns          : 5000                              ! Not of interest
+Total_time  : 1.00000000000000E-04              End time of simulation
+dt          : 1.00000000000000E-04              time step for the hydrodynamics
+
+nx      : 100                                   number of grid cells in x direction
+ny      : 100                                   number of grid cells in y direction
+nz      : 100                                   number of grid cells in z direction
+dx [m]  :  2.00000000000000E-06                 grid size in x direction
+dy [m]  :  2.00000000000000E-06                 grid size in y direction
+dz [m]  :  2.00000000000000E-06                 grid size in z direction
+
+eps_new :  1.00000000000000E-10                 min_divergence
+itm_icg : 1000                                  maximum iteration
+eps_icg :  1.00000000000000E-14                 tolerance
+
+
+PHYSICAL PROPERTIES:
+g_x :  0.00000000000000E+00                     gravity x
+g_y :  0.00000000000000E+00                     gravity y
+g_z :  0.00000000000000E+00                     gravity z
+
+nph : 2                                         NUMBER OF PHASES ( zero indexing)
+rho[0]  :  9.58400000000000E+02                 Density continuous phase
+mu[0]   :  2.80000000000000E-04                 Viscosity continuous  phase
+
+rho[1]  :  5.97000000000000E-01                 Density dispersed phase
+mu[1]   :  1.26000000000000E-05                 Viscosity dispersed  phase
+surf[1] :  5.90000000000000E-02                 Surface tension
+
+CONTACT ANGLE:
+Use Contact angle : FALSE
+
+
+REMESHING PARAMETERS:                           FOR remeshing the triangles ( Not required )
+fak_min :  2.00000000000000E-01
+fak_max :  5.00000000000000E-01
+
+DATFILE_Version : 0 
+INITIAL POSITION OF THE BUBBLE(S):
+neli : 1
+xcc_eli[1] :  1.00000000000000E-04              center x
+ycc_eli[1] :  1.00000000000000E-04              center y
+zcc_eli[1] :  1.00000000000000E-04              center z
+aaa_eli[1] :  5.00000000000000E-05              radius x
+bbb_eli[1] :  5.00000000000000E-05              radius y
+ccc_eli[1] :  5.00000000000000E-05              radius z
+ph_eli[1]  : 1                                  type of the phase/bubble
+
+
+IBM_PARTICLE : 0                                number of solid particle
+
+POROUS_PARTICLE : 0                             number of porous particle
+
+CALCULATION OPTIONS
+WindowShifting       : FALSE
+bub_track            : 0
+OriginShift.x        :  0.00000000000000E+00
+OriginShift.y        :  0.00000000000000E+00
+OriginShift.z        :  0.00000000000000E+00
+LES turbulence       : FALSE
+Adaptive timestepping : FALSE
+Minimum err (inc DT)  :  1.00000000000000E-07
+Maximum err (dec DT)  :  1.00000000000000E-06
+DISCRETE ELEMENTS    : FALSE
+
+
+BOUNDARIES
+
+Periodic x-boundary  : FALSE
+Periodic y-boundary  : FALSE
+Periodic z-boundary  : FALSE
+Free-slip boundaries : FALSE
+
+Pseudo-periodic pressure gradient (x-dir) :  0.00000000000000E+00
+Pseudo-periodic pressure gradient (y-dir) :  0.00000000000000E+00
+Pseudo-periodic pressure gradient (z-dir) :  0.00000000000000E+00
+
+LinearShearField : FALSE
+InflowFromTop    : FALSE
+ShearRate        :  0.00000000000000E+00
+
+RotationalVelocityField : FALSE
+omega                   :  0.00000000000000E+00
+Probe Liquid            : FALSE
+
+MASS TRANSFER
+Use Mass transport : FALSE
+GAS INLETS : FALSE
+
+OUTPUT PARAMETERS:
+fd_vtk : 2                                             Frequency of VTK files written in OUTPUT folder
+fd     : 1000                                          Frequency of DUMP files written in DUMP folder
+nr_extra_dumps : 0
+
+
